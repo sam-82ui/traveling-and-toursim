@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html {
+    overflow: hidden;
+    font-size: 62.5%;
+}
+header {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    position: fixed;
+    top: 1.5rem; left: 50%;
+    transform: translateX(-50%);
+    border-radius: .5rem;
+    padding: .3rem 2rem;
+    box-shadow: 0 .30rem .30rem rgba(0, 0, 0, .3);
+    transition: .3s linear;
+    z-index: 1000;
+}
+.header-active{
+    top: 0;
+    width: 100%;
+    border-radius: 20px;
+}
+header .logo {
+    font-size: 3rem;
+    color: #333;
+}
+header .logo span {
+    color: #007bff;
+}
+header .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; padding: 0;
+}
+header .navbar ul li {
+    margin: 0 1rem;
+}
+header .navbar ul li a {
+    color: #333;
+    font-size: 2rem;
+    transition: .2s linear;
+}
+header .navbar ul li a .active {
+    color: #007bff;
+}
+header .navbar ul li a:hover {
+    color: #007bff;
+}
+ header .fa-bars {
+    display: none;
+    font-size: 3rem;
+    color: #007bff;
+    cursor: pointer;
+} 
+header .nav-toggle {
+    top: 5.5rem;
+    opacity: 1;
+}
+
+
+
+/* media query */
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+    header .fa-bars {
+        display: block;
+    }
+    header .navbar {
+        position: fixed;
+        top: -100rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: #f8f9fa;
+        border-radius: .5rem;
+        box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+        z-index: 1000;
+        transition: .2s linear;
+    }
+    header .navbar ul {
+        flex-flow: column;
+    }
+    header .navbar ul li {
+        margin: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    header .navbar ul li a {
+        display: block;
+        font-size: 3rem;
+    }
+    header .nav-toggle {
+        top: 5.5rem;
+        opacity: 1;
+    }
+}
