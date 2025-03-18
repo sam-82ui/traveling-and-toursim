@@ -18,12 +18,12 @@
 
         <nav class="navbar">
             <ul>
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#feature">Feature</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#review">Review</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a data-scorll="home" href="#home" class="active">Home</a></li>
+                <li><a data-scorll="feature" href="#feature">Feature</a></li>
+                <li><a data-scorll="about" href="#about">About</a></li>
+                <li><a data-scorll="gallery" href="#gallery">Gallery</a></li>
+                <li><a data-scorll="review" href="#review">Review</a></li>
+                <li><a data-scorll="contact" href="#contact">contact</a></li>
             </ul>
         </nav>
 
@@ -32,6 +32,311 @@
      </header>
     <!-- header section end -->
 
+    <!-- home section start -->
+     <section class="home" id="home"> 
+        
+        <div class="video">
+            <video src="image/video-1.mp4" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+            <h1>explore new places, <br> adcenture awaita.</h1>
+            <p>Traveling and tourism is the largest service industry in India. It provides heritage, cultural, medical, business and sports tourism.</p>
+
+            <div class="form-container">
+                <form action="">
+                    <h3>search your destination</h3>
+
+                    <span>location</span>
+                    <input type="text" placeholder="plac you want to vist">
+
+                    <span>guest members</span>
+                    <input type="number" placeholder="number of peoples">
+
+                    <span>arrivals</span>
+                    <input type="date">
+
+                    <span>leaving</span>
+                    <input type="date">
+                    
+                    <input type="submit" value="search" class="btn">
+                </form>
+            </div>
+     </section>
+     <!-- home section end -->
+      
+     <!--features section start -->
+     <section class="feature" id="feature">
+
+        <h1 class="heading"><span>f</span>eatured <span>l</span>oactions</h1>
+        <div class="card-container">
+            <div class="card">
+                <span class="discount">-35%</span>
+                <img src="image/feature-2.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">hawaii</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit neque, minus accusamus ut ullam sed consequuntur omnis enim. Omnis quos similique soluta quibusdam reprehenderit ipsam molestiae maxime ipsum est quis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/feature-1.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">egypt</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit neque, minus accusamus ut ullam sed consequuntur omnis enim. Omnis quos similique soluta quibusdam reprehenderit ipsam molestiae maxime ipsum est quis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+            <div class="card">
+                <span class="discount">-45%</span>
+                <img src="image/feature-3.jpg" alt="">
+                <div class="content">
+                    <h3 class="title">india</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit neque, minus accusamus ut ullam sed consequuntur omnis enim. Omnis quos similique soluta quibusdam reprehenderit ipsam molestiae maxime ipsum est quis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#"><button class="btn">check out!</button></a>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!--features section start -->
+
+     <!-- about section start -->
+     <section id="about" class="about">
+        <h1 class="heading"><span>a</span>bout <span>U</span>S</h1>
+     <div class="row">
+
+        <div class="image">
+            <img src="icon/about.svg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, quo eaque. Quaerat molestiae veniam cumque nesciunt deserunt magni nihil odio aperiam commodi doloremque? Corrupti numquam aspernatur ex eius distinctio quae!</p><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, rerum!</p>
+            <a href="#"><button class="btn btn1"> Read more</button></a>
+            <a href="#"><button class="btn">get started</button></a>
+        </div>
+     </div>
+     </section>
+      <!-- about section end -->
+
+      <!-- gallery section start -->
+     <section id="gallery" class="gallery">
+        <h1 class="heading"><span>G</span>allery</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/feature-1.jpg" alt="">
+            <div class="icons1">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+            </div>
+
+            <div class="box">
+                <img src="image/feature-2.jpg" alt="">
+            <div class="icons1">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+            </div>
+
+            <div class="box">
+                <img src="image/feature-3.jpg" alt="">
+            <div class="icons1">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery-1.jpg" alt="">
+            <div class="icons1">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery-2.jpg" alt="">
+            <div class="icons1">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery-3.jpg" alt="">
+            <div class="icons1">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-search"></a>
+            </div>
+            </div>
+        </div>
+     </section>
+     <!-- gallery section end -->
+
+     <!-- review section start -->
+     <section id="review" class="review">
+        <h1 class="heading"><span>R</span>eveiw</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/pic-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>some's name</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam impedit recusandae odio. Dicta repudiandae omnis sit, consectetur similique cupiditate consequatur.</p>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/pic-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>some's name</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam impedit recusandae odio. Dicta repudiandae omnis sit, consectetur similique cupiditate consequatur.</p>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/pic-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>some's name</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam impedit recusandae odio. Dicta repudiandae omnis sit, consectetur similique cupiditate consequatur.</p>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+     </section>
+      <!-- review section end -->
+
+      <!-- contact section start  -->
+       <section id="contact" class="contact">
+
+        <h1 class="heading"><span>C</span>ontact <span>U</span>s</h1>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6460.622363817407!2d96.19514569924493!3d16.93826529478634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShwe%20Pouk%20Kan%2C%20aung%20myitttar%20streett!5e1!3m2!1sen!2smm!4v1742236461655!5m2!1sen!2smm" width="100%" height="300" style="border:0; outline: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="row">
+
+            <div class="contact-info">
+
+                <div class="box">
+                    <h3> <i class="fas fa-home"></i> address </h3>
+                    <p>shwe pouk, <br>
+                    kan <br>
+                    1807.</p>
+                </div>
+
+                <div class="box">
+                    <h3> <i class="fas fa-envelope"></i> e-mail </h3>
+                    <p>phonemyintthar@gmail.com</p>
+                </div>
+
+                <div class="box">
+                    <h3> <i class="fas fa-phone"></i> phone </h3>
+                    <p>+959-785 668 701</p>
+                </div>
+            </div>
+
+            <div class="contact-from-container">
+
+
+                <form action="">
+
+                    <h3>Get In Touch</h3>
+
+                    <div class="inputBox">
+                        <input type="text" placeholder="full name">
+                        <input type="email" placeholder="e-mail">
+                    </div>
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="massage"></textarea>
+
+                    <input type="submit" value="massage">
+                </form>
+            </div>
+        </div>
+       </section>
+       <!-- contact section end  -->
+
+       <section class="newlatter">
+        <h1>sing up for 25% discount</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laudantium inventore et, a blanditiis voluptate sed cumque cum. Quod, quibusdam?</p>
+
+        <form action="">
+            <input type="email" placeholder="Ender Your Email">
+            <input type="submit" value="sing up">
+        </form>
+       </section>
+
+       <section class="footer">
+        <h1 class="credit">created by <span>mr. phone</span> /all rights reserved.</h1>
+
+        <div class="icons">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-tiktok"></a>
+        </div>
+       </section>
     <!-- jquary cdn -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
